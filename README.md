@@ -21,6 +21,11 @@ Install requirements:
 pip install -r requirements.txt
 ```
 
+State the actual installation path of tesserasct in the receipt_dataset.py:
+```
+pytesseract.pytesseract.tesseract_cmd = <path>
+```
+
 # How to run:
 ```
 python nlp_processor_skip.py "./saved_model_kfold" <image path>
