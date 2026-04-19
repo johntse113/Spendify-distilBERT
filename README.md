@@ -21,10 +21,12 @@ Install requirements:
 pip install -r requirements.txt
 ```
 
-State the actual installation path of tesserasct in the receipt_dataset.py:
+For Windows, state the actual installation path of tesserasct in the receipt_dataset.py:
 ```
 pytesseract.pytesseract.tesseract_cmd = <path>
 ```
+
+For other platforms, simply remove those lines (lines 23-26)
 
 # How to run:
 ```
