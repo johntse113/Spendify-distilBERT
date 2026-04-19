@@ -12,7 +12,7 @@ Ubuntu/Debian
 ```
 sudo apt-get install tesseract-ocr
 ```
-Windows
+Windows\
 https://github.com/UB-Mannheim/tesseract/wiki
 
 Install requirements:
