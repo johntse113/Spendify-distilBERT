@@ -3,7 +3,7 @@ This is the repo for the distilBERT NLP model for the Spendify project.
 
 
 
-# How to tun:
+# How to run:
 ```
 pip install -r requirements.txt
 ```
