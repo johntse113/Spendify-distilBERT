@@ -17,3 +17,13 @@ Store the training samples somewhere (e.g. ./data/all), then:
 ```
  python train_kfold.py --data_dir ./data/all --output_dir ./saved_model_kfold --k_folds 5 --epochs 20 --batch_size 8
 ```
+Each training sample must be labeled with a txt file in json format, e.g.
+```
+{
+  "company":  "S.H.H. MOTOR ...",
+  "date":     "23-01-2019",
+  "address":  "NO. 343, JALAN ...",
+  "total":    "20.00",
+  "category": "Shopping"
+}
+```
