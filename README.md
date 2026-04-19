@@ -1,5 +1,5 @@
 # Spendify-distilBERT
-This is the repo for the multi-task distilBERT NLP model for the Spendify project.
+This is the repo for the multi-task distilBERT NLP model with pytesseract integration for receipt scanning the Spendify project.
 
 This model takes receipt image as the input, and returns with the transaction details in json format.
 
