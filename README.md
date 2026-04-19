@@ -14,7 +14,8 @@ sudo apt-get install tesseract-ocr
 ```
 Windows\
 https://github.com/UB-Mannheim/tesseract/wiki
-\\\
+
+<br><br>
 Install requirements:
 ```
 pip install -r requirements.txt
