@@ -3,11 +3,24 @@ This is the repo for the multi-task distilBERT NLP model with pytesseract integr
 
 This model takes receipt image as the input, and returns with the transaction details in json format.
 
+# Installation:
+macOS (Homebrew)
+```
+brew install tesseract
+```
+Ubuntu/Debian
+```
+sudo apt-get install tesseract-ocr
+```
+Windows
+https://github.com/UB-Mannheim/tesseract/wiki
 
-# How to run:
+Install requirements:
 ```
 pip install -r requirements.txt
 ```
+
+# How to run:
 ```
 python nlp_processor_skip.py "./saved_model_kfold" <image path>
 ```
